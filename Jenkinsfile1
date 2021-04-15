@@ -41,3 +41,11 @@
         }
     }
 }
+post {
+always {
+sucess {
+echo "sucessful run "
+}
+unstable {
+echo " The job is unstable "
+}
