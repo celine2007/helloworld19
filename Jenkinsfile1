@@ -32,7 +32,7 @@
            sh 'pwd'
         }
     }
-
+}
    stages {
         stage('push') {
             steps {
